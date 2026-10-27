@@ -1,2 +1,43 @@
-# deepbuildASI
-# Asma Rizwan Rao ### Systems Architect | Founder of A818 Research *Building things that should not be possible from where I stand.*  I am an independent systems architect operating from Lahore, Pakistan, working at the intersection of advanced artificial intelligence, neurotechnology, and electromagnetics. I engineer solutions from raw components, bridging the gap between biological intent, digital forensics, and autonomous systems.   I do not wait for permission. I source hardware locally, write software from scratch, and treat every systemic limitation as an engineering challenge to be broken down.  ---  ### 🧠 Current Ecosystem (A818)  **A818_NF (NeuroFlow) — Brain-Computer Interface** A software-first BCI decoding motor intent from raw EEG signals.  *   **Performance:** 91% accuracy on 3-class intent; 78% on 5-class (per-subject calibration). *   **Stack:** Python, PyTorch, MNE-Python, EEGNet CNN. *   **Status:** [Live Deployment](https://a818-nf.streamlit.app) • Fully open-source.  **A818_SK (Sky Net) — EMP Simulation & Threat Analysis** A real-time drone detection and EMP effects analysis platform (60% Complete). *   **Tech:** YOLOv8 (Computer Vision), Tkinter GUI, HOB/HEMP Physics Engine. *   **Status:** Processing 9.14GB Seraphim drone dataset for specific model training.  **A818_K — Legacy Code Governance** Next deployment phase. A tool designed to analyze, map, and manage complex, inherited software architectures.   ---  ### 🛠 Technical Arsenal  **AI & Machine Learning** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)  **Neurotechnology & Signal Processing** *   **Libraries:** MNE-Python, SciPy, NumPy *   **Techniques:** EEG decoding, bandpass/notch filtering, LOSO validation, CSP.  **Agentic AI & Software Engineering** ![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=langchain&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) *   **Systems:** Memory-enabled agents, RAG, multi-agent orchestration, CRM automation.  ---  ### 📜 Philosophy & Operating Principles  > *"Success is not a destination. It is an infinite staircase. If someone reaches the top today, someone else will overtake it tomorrow. The work never ends. You just keep climbing."*  *   **On Criticism:** Treated as a debugging log, never an insult.  *   **On Execution:** Silent execution. I do not publish unfinished work. The result speaks. *   **On Range:** I refuse to stay in one lane. When digital resources are blocked, I transition to physical creation (design, art, sculpture) to ensure continuous output.  *   **Nothing = Everything:** Starting from absolute zero is not a disadvantage. It is the ultimate blank canvas.  ---  ### 🌐 Verification & Index  *   **Official Systems Website:** [sites.google.com/view/asma-rizwan-rao-/home](https://sites.google.com/view/asma-rizwan-rao-/home) *   **Research Identity (ORCID):** [0009-0009-8429-9348](https://orcid.org/0009-0009-8429-9348) *   **Professional Network:** [LinkedIn](https://www.linkedin.com/in/asma-rizwan-rao) *   **Live BCI Application:** [A818_NF](https://a818-nf.streamlit.app) *   **Direct Contact:** asma.rizwanrao7@gmail.com
+# Asma Rizwan Rao
+**Systems Architect | Founder of A818 Research**
+
+Independent researcher and systems architect operating from Lahore, Pakistan. My work focuses on the architectural intersection of advanced artificial intelligence, neurotechnology (BCI), and electromagnetic threat analysis. I engineer systems from first principles, utilizing custom pipelines and public datasets to deploy production-grade applications.
+
+## Active Systems
+
+### A818_NF (NeuroFlow) — Neurotechnology
+A software-first Brain-Computer Interface designed to decode motor intent from raw electroencephalogram (EEG) signals.
+*   **Methodology:** Implements a custom EEGNet CNN architecture and Common Spatial Patterns (CSP) for feature extraction. Data processing pipeline includes 50 Hz notch filtering, 8–30 Hz bandpass filtering, and per-channel z-score normalization.
+*   **Performance:** 91% accuracy on 3-class intent classification; 78% on 5-class with per-subject calibration.
+*   **Status:** Software infrastructure is complete, fully open-source, and deployed live. Hardware integration (EEG headband) is in active development via custom-sourced components.
+*   **Deployment:** [a818-nf.streamlit.app](https://a818-nf.streamlit.app)
+
+### A818_SK (Sky Net) — Electromagnetic & Threat Analysis
+A real-time drone detection and EMP effects analysis platform integrating computer vision and geospatial tracking.
+*   **Methodology:** Utilizes YOLOv8 (Ultralytics) for target detection, Tkinter for GUI, and OpenCV for real-time video processing. The EMP physics engine calculates standardized HEMP geometry, geometric spreading attenuation, and Poynting vector energy density.
+*   **Architecture:** Includes a hardware interface abstraction layer using `pyserial` with built-in safety interlocks, auto-disarm protocols, and state-machine logic.
+*   **Status:** 60% complete. Current focus: Training YOLOv8 on the 9.14 GB Seraphim drone dataset to transition from COCO (80 classes) to drone-specific (1 class) detection.
+
+### A818_K — Software Architecture
+Legacy code mapping and governance architecture. (Scheduled for deployment upon A818_SK completion).
+
+## Technical Competencies
+
+**Artificial Intelligence & Machine Learning**
+`PyTorch` `scikit-learn` `OpenCV` `Ultralytics (YOLOv8)` `Convolutional Neural Networks (CNN)` `Reinforcement Learning`
+
+**Signal Processing & Neurotechnology**
+`MNE-Python` `EEGNet` `Common Spatial Patterns (CSP)` `EDF Parsing` `Notch/Bandpass Filtering` `ERD/ERS Analysis` `LOSO Validation`
+
+**Software Engineering & Automation**
+`Python` `C` `SQL` `JavaScript` `FastAPI` `Streamlit` `LangChain` `LangGraph` `n8n` `Agentic AI Orchestration` `CRM Integration`
+
+**Environment & Deployment**
+`Git/GitHub` `Linux` `Google Colab (T4 GPU)` `Kaggle` `Streamlit Cloud` `Cloudflare Tunnel`
+
+## Verification & Links
+
+*   **Official Website:** [sites.google.com/view/asma-rizwan-rao-/home](https://sites.google.com/view/asma-rizwan-rao-/home)
+*   **Research Identity (ORCID):** [0009-0009-8429-9348](https://orcid.org/0009-0009-8429-9348)
+*   **Professional Network:** [linkedin.com/in/asma-rizwan-rao](https://www.linkedin.com/in/asma-rizwan-rao)
+*   **Direct Contact:** asma.rizwanrao7@gmail.com
